@@ -15,9 +15,26 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            this.BackColor = Color.White;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
